@@ -1,0 +1,47 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  outline: 0;
+  border-radius: 11px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#nucleus {
+  position: relative;
+  background: rgb(241, 239, 239);
+  border-radius: 11px;
+  width: 75px;
+  height: 75px;
+}
+
+#nucleus.active {
+  left: 695px;
+}
+
+#square {
+  display: inline-block;
+  border: 1.5px solid blue;
+  width: 35px;
+  height: 35px;
+  margin: 18.5px;
+  transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -webkit-transition: opacity 0.1s ease-in-out;
+}
+
+button:active #square {
+  opacity: 0.25;
+}
