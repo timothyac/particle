@@ -1,0 +1,28 @@
+{
+  "name": "particle",
+  "version": "1.0.0",
+  "description": "Application to easily generate particles on your desktop.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SunstroUS/particle.git"
+  },
+  "main": "dist",
+  "scripts": {
+    "start": "tsc && electron .",
+    "compile-type": "tsc"
+  },
+  "keywords": [
+    "electron",
+    "typescript"
+  ],
+  "author": "sunstrous",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron/typescript-definitions": "^8.6.1",
+    "electron": "^6.0.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "element-ready": "^4.1.0"
+  }
+}
