@@ -1,25 +1,20 @@
-# Quark
+# Particle
 
-> Boilerplate for Electron applications built with typescript
+> Application to easily generate particles on your desktop.
 
 ## What can it do
 
-Quark gives you a boilerplate to an Electron application built with typescript, up and running quickly.
-
-## Features
-
-- Great starting place for those who want to try Electron, but use the superpowers of Typescript
-- Compiles TS to ES6 (can be configured in tsconfig)
-- Uses plain HTML & CSS, but can be set up to add front-end frameworks
-- Open Source and always free
+Particle was made to give extra functionality on your desktop. Kind of like the accessibility button on iOS devices. Current problem is that electron doesn't have good way to manage click through areas. Might mitigate this by rengerating new browser windows, but not sure yet. For now this project is on hold.
 
 ## Install
 
-Make sure you have [Node.js](http://nodejs.org/), [Typescript](https://www.typescriptlang.org/) & [Electron](http://electronjs.org/) installed.
+\*Currently this is still in beta/development and can only be installed by cloning the repo and manually installing it.
+
+Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```sh
-> git clone https://github.com/SunstroUS/quark.git
-> cd quark
+> git clone https://github.com/SunstroUS/particle.git
+> cd particle
 > npm install
 > npm run start
 ```
@@ -28,7 +23,4 @@ Make sure you have [Node.js](http://nodejs.org/), [Typescript](https://www.types
 
 Built with [Electron](https://electronjs.org).
 
-### Commands:
-
-- `npm run start` : Compiles the type and runs the application
-- `npm run compile-type` : Compiles just the type without starting the application
+Bootstrapped with [Quark](https://github.com/SunstroUS/quark).
